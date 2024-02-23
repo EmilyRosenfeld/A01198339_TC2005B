@@ -30,7 +30,8 @@ let funcionC = invertir (c);
 
 console.log("FUNCION 1");
 console.log(funcionA);
- vconsole.log(funcionC);
+console.log(funcionB);
+console.log(funcionC);
 
 let funcionD = modifica (a);
 let funcionE = modifica (b);
