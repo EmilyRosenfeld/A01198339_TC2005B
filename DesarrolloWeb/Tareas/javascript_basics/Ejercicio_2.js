@@ -19,6 +19,7 @@ function bubbleSort(lista) {
 let lista1 = [7, 3, 1, 8, 8, 4];
 let lista2 = [3, 4, 0, 2, 3, 3];
 let lista3 = [9, 8, 4, 6, 5, 3];
+
 let listaOrdenadaA = bubbleSort(lista1);
 let listaOrdenadaB = bubbleSort(lista2);
 let listaOrdenadaC = bubbleSort(lista3);

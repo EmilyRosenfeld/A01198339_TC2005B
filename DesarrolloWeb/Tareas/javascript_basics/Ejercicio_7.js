@@ -17,5 +17,3 @@ return num;
 console.log(factores(12));
 console.log(factores(28));
 console.log(factores(45));
-
-
