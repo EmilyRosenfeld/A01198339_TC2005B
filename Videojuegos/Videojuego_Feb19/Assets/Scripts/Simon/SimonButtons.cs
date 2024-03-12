@@ -18,7 +18,7 @@ public class SimonButtons : MonoBehaviour
 
     IEnumerator ChangeColor()
     {
-        GetComponent<Image>().color = Color.white;
+        GetComponent<Image>().color = new Color (0,0,0,0.5f);
         yield return new WaitForSeconds (0.5f);
         GetComponent<Image>().color = originalColor;
 
