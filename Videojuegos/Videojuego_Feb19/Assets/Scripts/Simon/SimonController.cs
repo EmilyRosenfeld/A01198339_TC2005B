@@ -17,9 +17,12 @@ public class SimonController : MonoBehaviour
     bool playerTurn = false;
     int index;
     int level = 0;
+    int highScore = 0;
+
 
     void Start()
     {
+       highScore = PlayerPrefs.GetInt("highScore", 0);
         NewGame();
     }
 
@@ -74,6 +77,9 @@ public class SimonController : MonoBehaviour
             else {
                 //game over
                 PlayerPrefs.SetInt("score", level);
+                if (level > highScore){
+                    PlayerPrefs.SetInt("highScore", level);
+                }
                 Debug.Log("GAME OVER");
                 UnityEngine.SceneManagement.SceneManager.LoadScene("SimonResults");
             }
