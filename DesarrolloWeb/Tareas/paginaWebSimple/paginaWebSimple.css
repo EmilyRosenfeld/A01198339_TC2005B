@@ -1,0 +1,105 @@
+/* Actividad: Página web simple
+Emily Rosenfeld, A01198399  */
+
+body {
+    margin:0;
+    font-family: Verdana, sans-serif;
+}
+
+.header {
+    background-color: #27424D;
+    padding: 10px 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .links {
+    display: flex; 
+}
+
+.header .links p {
+    margin: 0 10px;
+}
+
+.middle {
+    background-color: #B97D2D;
+    padding: 70px 260px;
+    font-size: 16px;
+}
+
+.newsletter {
+    background-color: #27424D;
+    padding: 28px;
+    text-align: center; /* Center the content */
+    color: white;
+}
+
+#subscribe-button {
+    background-color: #B97D2D;
+    color: white; 
+    border: none;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.bottom {
+    background-color: #ffffff;
+    padding: 10px;
+    flex-grow: 1;
+}
+#container {
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    background-color: #ffffff;
+    padding: 15px;
+    max-width: 100%;
+  }
+  
+  #container div img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #container div h3 {
+    width: 80%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+  }
+
+  #container div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+  }
+
+
+.footer {
+    background-color: #27424D;
+    text-align: center;
+    padding: 10px;
+}
+
+.color {
+    color: #ffffff; 
+    text-align: center;
+}
+
+.color2 {
+    color: #ffffff; 
+    text-align: left;
+}
+
+.color3 {
+    color: #000000; 
+    text-align: center;
+}

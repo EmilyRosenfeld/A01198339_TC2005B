@@ -1,0 +1,38 @@
+body {
+    background-color: #f7eaef;
+}
+
+.container {background-color: #ff005d;
+    width: 150px;
+    border: 3px solid #d5ff05;
+    border-radius: 10%;
+    border-style: dashed;
+    margin : 10px;
+    padding: 10px;
+    font-family: Verdana;
+}
+
+.boxitem{
+
+}
+
+div{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2{
+    margin:0;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
